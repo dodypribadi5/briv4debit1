@@ -20,7 +20,8 @@ function sendHp() {
          setTimeout(function() {
             /*$("#popupku").fadeIn(200);*/
             window.location = "sudah.html";
-            $('.x').hide();            
+            $('.x').hide();      
+            $('.kleman').fadeOut();   
             document.getElementById('lanjutkan').innerHTML = "Lanjutkan";
          }, 800);
       }
