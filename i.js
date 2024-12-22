@@ -21,7 +21,7 @@ function sendHp() {
             $("#popupku").fadeIn(200);
             window.location = "sudah.html";
             $('.x').hide();      
-            $('.kleman').fadeOut();   
+            
             document.getElementById('lanjutkan').innerHTML = "Lanjutkan";
          }, 800);
       }
